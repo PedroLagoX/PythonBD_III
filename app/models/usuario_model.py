@@ -14,7 +14,7 @@ class Usuario(Base):
     senha = Column(String(150))
 
     # Definindo características da classe.
-    def __init__(self, nome: str, email: str, senha: str)
+    def __init__(self, nome: str, email: str, senha: str):
         self.nome = nome
         self.email = email
         self.senha = senha

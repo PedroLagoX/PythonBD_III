@@ -6,7 +6,7 @@ class UsuarioRepository:
         self.session = session
 
 
-    def salvar_usuario(self, usuario: Usuario);
+    def salvar_usuario(self, usuario: Usuario):
         self.session.add(usuario)
         self.session.commit()
         self.session.refresh()
