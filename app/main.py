@@ -1,6 +1,8 @@
 from services.usuario_service import UsuarioService
 from repositories.usuario_repository import UsuarioRepository
 from config.database import Session
+import os
+
 
 def main():
     session = Session()
@@ -24,5 +26,6 @@ def main():
 
 
 if __name__ == "__main__":
+    os.system("cls || clear")
     main()
     
